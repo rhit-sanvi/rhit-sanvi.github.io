@@ -6,6 +6,8 @@ a{
     color:indianred;
     text-decoration: none;
     font-size: 2em;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 a:hover{
     color:red;
@@ -16,14 +18,11 @@ h1 {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
-img{
-    margin: auto;
-}
 h2{
     color:indianred;
     font-family: 'Times New Roman', Times, serif;
 }
-#handshake{
+
+.photo_footer{
     text-align: center;
-    font-size: 1em;
 }
