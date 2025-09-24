@@ -4,11 +4,12 @@
     <h2>Technologies:</h2>
         <ul>
             <li id="python" draggable="true" ondragstart="dragstartHandler(event)">Python</li>
-            <li>Java</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JS</li>
-            <li>C</li>
+            <li id="java" draggable="true" ondragstart="dragstartHandler(event)">Java</li>
+            <li id="html" draggable="true" ondragstart="dragstartHandler(event)">HTML</li>
+            <li id="css" draggable="true" ondragstart="dragstartHandler(event)">CSS</li>
+            <li id="js" draggable="true" ondragstart="dragstartHandler(event)">JS</li>
+            <li id="c" draggable="true" ondragstart="dragstartHandler(event)">C</li>
+            <li id="verilog" draggable="true" ondragstart="dragstartHandler(event)">Verilog</li>
         </ul>
     <h2>Work Experience</h2>
         <p><strong>Learning Centre:</strong></p>
@@ -21,12 +22,15 @@
     <p><strong>Rose-Hulman Institute of Technology:</strong></p>
             <p>Bachelor of Science, Computer Science</p>
             <ol>
-                <li>Introduction to Software Development</li>
-                <li>Object-Oriented Software Development</li>
-                <li>Data Structures and Algorithm Analysis</li>
-                <li>Digital Systems</li>
-                <li>Introduction to Systems Programming</li>
-                <li>Introduction to Web Programming</li>
+                <li id="intro" draggable="true" ondragstart="dragstartHandler(event)">Introduction to Software Development</li>
+                <li id="java" draggable="true" ondragstart="dragstartHandler(event)">Object-Oriented Software Development</li>
+                <li id="data" draggable="true" ondragstart="dragstartHandler(event)">Data Structures and Algorithm Analysis</li>
+                <li id="ece" draggable="true" ondragstart="dragstartHandler(event)">Digital Systems</li>
+                <li id="assembly" draggable="true" ondragstart="dragstartHandler(event)">Introduction to Systems Programming</li>
+                <li id="web" draggable="true" ondragstart="dragstartHandler(event)">Introduction to Web Programming</li>
             </ol>
-    <div id ="drag_here" ondrop="dropHandler(event)" ondragover="dragoverHandler(event)">Here</div>
+    <h2 class="organise">Organise my skills by your requirement:</h2>
+    <div id ="drag_here" ondrop="dropHandler(event)" ondragover="dragoverHandler(event)"><span>Useful to the company:</span></div>
+    <div id ="drag_here" ondrop="dropHandler(event)" ondragover="dragoverHandler(event)"><span>Not useful to the company:</span></div>
+
 </html>
