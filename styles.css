@@ -1,25 +1,18 @@
 .navigation{
     background-color: #F4C2C2 ;
+    text-align: center;
 }
 a{
     color:indianred;
     text-decoration: none;
     font-size: 2em;
-}
-#resume {
-    text-align: left;
-}
-#portfolio {
-    text-align:center;
-}
-#main {
-    text-align:right;
+    margin: 2px;
 }
 a:hover{
     color:red;
 }
 h1 {
-    font-size:20px;
+    font-size:60px;
     color:indianred;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
@@ -30,4 +23,8 @@ img{
 h2{
     color:indianred;
     font-family: 'Times New Roman', Times, serif;
+}
+#handshake{
+    text-align: center;
+    font-size: 1em;
 }
