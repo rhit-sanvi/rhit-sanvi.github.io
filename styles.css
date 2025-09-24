@@ -5,4 +5,12 @@
     color:indianred;
     text-decoration: none;
     padding: auto;
+    font-size: 2em;
+    text-align:center;
+}
+h1{
+    font-size:4em;
+    color:indianred;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
 }
