@@ -1,17 +1,18 @@
 .navigation{
     background-color: #F4C2C2 ;
+    text-align:center;
 }
 .navigation a{
     color:indianred;
     text-decoration: none;
-    padding: auto;
     font-size: 2em;
-    text-align:center;
+    padding: 3px;
+    
 }
 a:hover{
     color:red;
 }
-h1{
+h1 {
     font-size:4em;
     color:indianred;
     text-align: center;
