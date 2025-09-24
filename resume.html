@@ -1,8 +1,9 @@
 <html>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
     <h2>Technologies:</h2>
         <ul>
-            <li>Python</li>
+            <li id="python" draggable="true" ondragstart="dragstartHandler(event)">Python</li>
             <li>Java</li>
             <li>HTML</li>
             <li>CSS</li>
@@ -27,4 +28,5 @@
                 <li>Introduction to Systems Programming</li>
                 <li>Introduction to Web Programming</li>
             </ol>
+    <div id ="drag_here" ondrop="dropHandler(event)" ondragover="dragoverHandler(event)">Here</div>
 </html>
