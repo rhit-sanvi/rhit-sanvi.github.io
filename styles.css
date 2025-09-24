@@ -1,4 +1,8 @@
 .navigation{
     background-color: #F4C2C2 ;
-    color: palevioletred;
+}
+.navigation a{
+    color:indianred;
+    text-decoration: none;
+    padding: auto;
 }
