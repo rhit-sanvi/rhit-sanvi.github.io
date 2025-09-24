@@ -1,12 +1,11 @@
 .navigation{
     background-color: #F4C2C2 ;
-    text-align: center;
+    display:inline;
 }
 a{
     color:indianred;
     text-decoration: none;
     font-size: 2em;
-    margin: 2px;
 }
 a:hover{
     color:red;
