@@ -1,12 +1,13 @@
 .navigation{
     background-color: #F4C2C2 ;
 }
-.navigation a{
+.navigation a:hover{
     color:indianred;
     text-decoration: none;
     padding: auto;
     font-size: 2em;
     text-align:center;
+
 }
 h1{
     font-size:4em;
