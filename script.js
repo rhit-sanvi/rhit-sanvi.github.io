@@ -10,21 +10,24 @@ function dropHandler(ev){
     const data = ev.dataTransfer.getData("text");
     ev.target.appendChild(document.getElementById(data));
 }
+clickCounter = 0;
 let description_two = document.querySelector("#description_two .text");
 let two = document.getElementById("two");
 two.addEventListener("click", function() {
+    clickCounter++;
     description_two.textContent="We started by making a box and pointer diagram";
     document.getElementById("img_two").src = "picture.jpg";
     document.getElementById("img_two").style.width = "33%" ;
     two.innerText = "next";
-    two.id = "next";
+    if(clickCounter == 2){
+        doNext();
+    }
 });
-let next = document.getElementById("next");
-next.addEventListener("click", function() {
+function doNext(){
     description_two.textContent = "Next we made the first level";
     document.getElementById("img_two").src = "level1.png";
     document.getElementById("img_two").width = "33%" ;
-});
+}
 let description_three = document.getElementById("description_three");
 let three = document.getElementById("three");
 three.addEventListener("click", function() {
