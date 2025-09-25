@@ -18,7 +18,7 @@ two.addEventListener("click", function() {
     description_two.textContent="We started by making a box and pointer diagram";
     document.getElementById("img_two").src = "picture.jpg";
     document.getElementById("img_two").style.width = "33%" ;
-    document.getElementById("img_two").display= "block" ;
+    document.getElementById("img_two").display= "inline" ;
     two.innerText = "next";
     if(clickCounter == 2){
         doNext();
