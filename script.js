@@ -14,7 +14,6 @@ let description_two = document.getElementById("description_two");
 let two = document.getElementById("two");
 two.addEventListener("click", function() {
     description_two.innerText="We started by making a box and pointer diagram";
-    description_two.
 });
 let description_three = document.getElementById("description_three");
 let three = document.getElementById("three");
