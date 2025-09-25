@@ -32,3 +32,16 @@ span{
 .organise{
     text-align: center;
 }
+.timeline{
+    margin: -120px 0 0 120px;
+    display: inline;
+}
+#one{
+    width: 33.3%;
+    float:left;
+}
+#two, #three{
+    width: 33.3%;
+    float: right;
+}
+

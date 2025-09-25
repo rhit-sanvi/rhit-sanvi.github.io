@@ -10,11 +10,4 @@ function dropHandler(ev){
     const data = ev.dataTransfer.getData("text");
     ev.target.appendChild(document.getElementById(data));
 }
-reset.addEventListener("click", function(){
-    reset(dropHandler);
-    reset(dragoverHandler);
-    reset(dragstartHandler);
-});
-function reset(event){
-    event.reset();
-}
+
