@@ -32,16 +32,21 @@ span{
 .organise{
     text-align: center;
 }
-.timeline button{
+.timeline{
     margin: -120px 0 0 120px;
     display: inline;
 }
-#one{
+#one, #description_one{
     width: 33.3%;
     float:left;
 }
-#two, #three{
+#two, #three, #description_two, #description_three{
     width: 33.3%;
     float: right;
 }
+.descriptions{
+    margin: -120px 0 0 120px;
+    display: inline;
+}
+
 
