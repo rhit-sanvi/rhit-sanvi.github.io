@@ -10,11 +10,12 @@ function dropHandler(ev){
     const data = ev.dataTransfer.getData("text");
     ev.target.appendChild(document.getElementById(data));
 }
-let description_two = document.getElementById("description_two");
+let description_two = document.querySelector("description_two .text");
 let two = document.getElementById("two");
 two.addEventListener("click", function() {
     description_two.textContent="We started by making a box and pointer diagram";
     document.getElementById("img_two").src = "picture.jpg";
+    document.getElementById("img_two").display ="block";
 });
 let description_three = document.getElementById("description_three");
 let three = document.getElementById("three");
