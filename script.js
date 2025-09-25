@@ -15,20 +15,19 @@ let description_two = document.querySelector("#description_two .text");
 let two = document.getElementById("two");
 two.addEventListener("click", function() {
     clickCounter++;
+    if(clickCounter == 1){
     description_two.textContent="We started by making a box and pointer diagram";
     document.getElementById("img_two").src = "picture.jpg";
-    document.getElementById("img_two").style.width = "33%" ;
+    document.getElementById("img_two").style.width = "99%" ;
     document.getElementById("img_two").display= "inline" ;
     two.innerText = "next";
-    if(clickCounter == 2){
-        doNext();
     }
-});
-function doNext(){
+    if(clickCounter == 2){
     description_two.textContent = "Next we made the first level";
     document.getElementById("img_two").src = "level1.png";
-    document.getElementById("img_two").width = "33%" ;
-}
+    }
+});
+
 let description_three = document.getElementById("description_three");
 let three = document.getElementById("three");
 three.addEventListener("click", function() {
