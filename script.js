@@ -1,15 +1,4 @@
-function dragstartHandler(ev){
-    ev.dataTransfer.setData("text",ev.target.id);
-}
 
-function dragoverHandler(ev){
-    ev.preventDefault();
-}
-function dropHandler(ev){
-    ev.preventDefault();
-    const data = ev.dataTransfer.getData("text");
-    ev.target.appendChild(document.getElementById(data));
-}
 let clickCounter = 0;
 let description_two = document.querySelector("#description_two .text");
 let two = document.getElementById("two");
