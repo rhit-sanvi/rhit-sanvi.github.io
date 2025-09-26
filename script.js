@@ -29,6 +29,7 @@ two.addEventListener("click", function() {
         description_two.innerHTML = "[click project 2]";
         clickCounter = 0;
         document.getElementById("img_two").hidden = true;
+        two.innerText="Project 2";
     }
 });
 let clickCounterTwo = 0;
@@ -58,6 +59,7 @@ three.addEventListener("click", function() {
     description_three.textContent = "[click project 3]";
     clickCounterTwo = 0;
     img_3.hidden = true;
+    three.innerText="Project 3";
    }
 });
 let clickCounterThree = 0;
@@ -86,7 +88,7 @@ one.addEventListener("click", function() {
    if(clickCounterThree == 4){
     description_one.textContent = "[click project 1]";
     clickCounterThree = 0;
-    
+    one.innerText="Project 1";
    }
 });
 
