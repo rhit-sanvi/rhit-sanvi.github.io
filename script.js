@@ -38,7 +38,7 @@ two.addEventListener("click", function() {
     if(clickCounter == 5){
         description_two.innerHTML = "[click project 2]";
         clickCounter = 0;
-        document.getElementById("img_two").src = "";
+        document.getElementById("img_two").src.removeAttribute();
     }
 });
 let clickCounterTwo = 0;
@@ -65,7 +65,7 @@ three.addEventListener("click", function() {
    }
    if(clickCounterTwo == 4){
     description_three.textContent = "[click project 3]";
-    clickCounterTwo == 0;
+    clickCounterTwo = 0;
     img_3.src="";
    }
 });
@@ -89,12 +89,11 @@ one.addEventListener("click", function() {
    if(clickCounterThree == 3){
     description_one.textContent="After accounting for each edge case, the total worse cast runtime added up to: V + 2E + (V-1)logE + 2ElogV + E";
     one.innerText = "done";
-    img_3.src="";
+    img_1.src="";
    }
    if(clickCounterThree == 4){
     description_one.textContent = "[click project 1]";
-    clickCounterTwo == 0;
-
+    clickCounterThree = 0;
    }
 });
 
