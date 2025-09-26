@@ -53,5 +53,9 @@ h2{
 section {
     background-color: lightgray;
 }
+header{
+    background-color: darkgray;
+    color: black;
+}
 
 
