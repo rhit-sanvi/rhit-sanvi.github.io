@@ -19,8 +19,9 @@ h1 {
     font-family: 'Times New Roman', Times, serif;
 }
 h2{
-    color:indianred;
+    background-color: lightgray;
     font-family: 'Times New Roman', Times, serif;
+    text-align: center;
 }
 
 .photo_footer{
@@ -47,6 +48,9 @@ h2{
 .descriptions{
     margin: -120px 0 0 120px;
     display: inline;
+}
+section {
+    background-color: lightgray;
 }
 
 
