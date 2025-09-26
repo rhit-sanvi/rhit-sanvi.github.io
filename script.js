@@ -39,6 +39,7 @@ three.addEventListener("click", function() {
    clickCounterTwo++;
    if(clickCounterTwo == 1){
     description_three.textContent = "The data set chosen was that of airport traffic flight details in India. Here is part of it:";
+    img_3.removeAttribute("hidden");
     img_3.src = "data.png";
     img_3.style.width = "99%";
     img_3.display="inline";
@@ -56,7 +57,7 @@ three.addEventListener("click", function() {
    if(clickCounterTwo == 4){
     description_three.textContent = "[click project 3]";
     clickCounterTwo = 0;
-    img_3.removeAttribute("src");
+    img_3.hidden = true;
    }
 });
 let clickCounterThree = 0;
@@ -71,6 +72,7 @@ one.addEventListener("click", function() {
    }
    if(clickCounterThree == 2){
     description_one.textContent="Dense graph returned by the code after running Prim's algorithm";
+    img_1.removeAttribute("hidden");
     img_1.src = "graph.png";
     img_1.style.width = "99%";
     img_1.display="inline";
@@ -84,6 +86,7 @@ one.addEventListener("click", function() {
    if(clickCounterThree == 4){
     description_one.textContent = "[click project 1]";
     clickCounterThree = 0;
+    img_1.hidden = "true";
    }
 });
 
