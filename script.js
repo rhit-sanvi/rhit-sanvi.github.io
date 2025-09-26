@@ -81,12 +81,12 @@ one.addEventListener("click", function() {
    if(clickCounterThree == 3){
     description_one.textContent="After accounting for each edge case, the total worse cast runtime added up to: V + 2E + (V-1)logE + 2ElogV + E";
     one.innerText = "done";
-    img_1.removeAttribute("src");
+    img_1.hidden = "true";
    }
    if(clickCounterThree == 4){
     description_one.textContent = "[click project 1]";
     clickCounterThree = 0;
-    img_1.hidden = "true";
+    
    }
 });
 
