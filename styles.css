@@ -1,22 +1,23 @@
 .navigation{
-    background-color: #F4C2C2 ;
+    background-color: lightgray ;
     text-align: center;
 }
 a{
-    color:indianred;
+    color: darkgray;
     text-decoration: none;
     font-size: 2em;
     margin-left: 5%;
     margin-right: 5%;
 }
 a:hover{
-    color:red;
+    color: black;
 }
 h1 {
     font-size:60px;
-    color:indianred;
+    color: black;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+    background-color: darkgray;
 }
 h2{
     background-color: lightgray;
