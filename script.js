@@ -42,7 +42,7 @@ two.addEventListener("click", function() {
     }
 });
 let clickCounterTwo = 0;
-let description_three = document.getQuerySelector("#description_three .text");
+let description_three = document.querySelector("#description_three .text");
 let three = document.getElementById("three");
 let img_3 = document.getElementById("img_three");
 three.addEventListener("click", function() {
@@ -69,7 +69,7 @@ three.addEventListener("click", function() {
    }
 });
 let clickCounterThree = 0;
-let description_one = document.get("#description_one .text");
+let description_one = document.querySelector("#description_one .text");
 let one = document.getElementById("one");
 let img_1 = document.getElementById("img_one");
 one.addEventListener("click", function() {
