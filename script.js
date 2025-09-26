@@ -1,4 +1,5 @@
-document.getElementById("header").innerHTML = '<nav class="navigation"><a href="resume.html" alt="resume">Resume</a><a href="portfolio.html" alt="portfolio">Portfolio</a><a href="index.html" alt="index">Main</a></nav>'; 
+
+ document.getElementById("header").innerHTML = '<nav class="navigation"><a href="resume.html" alt="resume">Resume</a><a href="portfolio.html" alt="portfolio">Portfolio</a><a href="index.html" alt="index">Main</a></nav>'; 
 
 
 let clickCounter = 0;
