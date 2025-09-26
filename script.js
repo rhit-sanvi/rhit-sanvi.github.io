@@ -1,3 +1,9 @@
+document.getElementById("header").innerHTML = <nav class="navigation">
+      <a href="resume.html" alt="resume">Resume</a>
+      <a href="portfolio.html" alt="portfolio">Portfolio</a>
+      <a href="index.html" alt="index">Main</a>
+    </nav>; 
+
 
 let clickCounter = 0;
 let description_two = document.querySelector("#description_two .text");
@@ -70,7 +76,7 @@ one.addEventListener("click", function() {
     clickCounterThree++;
    if(clickCounterThree == 1){
     description_one.textContent = "Our prompts into AI started with 'Explain Prim's algorithm' to 'How is the algorithm optimizing an already existing graph without creating a loop?' to asking it for more complex stuff like the pseudo code";
-    three.innerText = "next";
+    one.innerText = "next";
    }
    if(clickCounterThree == 2){
     description_one.textContent="Dense graph returned by the code after running Prim's algorithm";
