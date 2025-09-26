@@ -6,6 +6,7 @@ two.addEventListener("click", function() {
     clickCounter++;
     if(clickCounter == 1){
     description_two.textContent="We started by making a box and pointer diagram, highlighting each class and its objects";
+    document.getElementById("img_two").removeAttribute("hidden");
     document.getElementById("img_two").src = "box_pointer.png";
     document.getElementById("img_two").style.width = "99%" ;
     document.getElementById("img_two").display= "inline" ;
@@ -27,7 +28,7 @@ two.addEventListener("click", function() {
     if(clickCounter == 5){
         description_two.innerHTML = "[click project 2]";
         clickCounter = 0;
-        document.getElementById("img_two").remove();
+        document.getElementById("img_two").hidden = true;
     }
 });
 let clickCounterTwo = 0;
