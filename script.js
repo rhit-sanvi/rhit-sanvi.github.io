@@ -31,9 +31,10 @@ two.addEventListener("click", function() {
         document.getElementById("img_two").src = "level2.png";
     }
     if(clickCounter == 4){
-        description_two.textContent = "If an enemy comes in contact with the hero, the hero dies and the game is over!";
+        description_two.innerHTML = "If an enemy comes in contact with the hero, the hero dies and the game is over!";
         document.getElementById("img_two").src = "gameOver.png";
         two.innerText = "Done";
+        clickCounter= 0;
     }
 });
 
