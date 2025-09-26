@@ -27,7 +27,7 @@ two.addEventListener("click", function() {
     if(clickCounter == 5){
         description_two.innerHTML = "[click project 2]";
         clickCounter = 0;
-        document.getElementById("description_two").removeAttribute("img");
+        document.getElementById("img_two").remove();
     }
 });
 let clickCounterTwo = 0;
