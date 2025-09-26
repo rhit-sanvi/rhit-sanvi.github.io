@@ -23,6 +23,7 @@ h2{
     background-color: lightgray;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
+    color: darkgray;
 }
 
 .photo_footer{
@@ -56,6 +57,7 @@ section {
 header{
     background-color: darkgray;
     color: black;
+    font-size: 4em;
 }
 
 
