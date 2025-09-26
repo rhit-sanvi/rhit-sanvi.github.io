@@ -10,7 +10,7 @@ function dropHandler(ev){
     const data = ev.dataTransfer.getData("text");
     ev.target.appendChild(document.getElementById(data));
 }
-clickCounter = 0;
+let clickCounter = 0;
 let description_two = document.querySelector("#description_two .text");
 let two = document.getElementById("two");
 two.addEventListener("click", function() {
@@ -34,18 +34,62 @@ two.addEventListener("click", function() {
         description_two.innerHTML = "If an enemy comes in contact with the hero, the hero dies and the game is over!";
         document.getElementById("img_two").src = "gameOver.png";
         two.innerText = "Done";
-        clickCounter= 0;
+    }
+    if(clickCounter == 5){
+        description_two.innerHTML = "[click project 2]";
+        clickCounter = 0;
     }
 });
-
-let description_three = document.getElementById("description_three");
+let clickCounterTwo = 0;
+let description_three = document.getElementById("description_three .text");
 let three = document.getElementById("three");
+let img_3 = document.getElementById("img_three");
 three.addEventListener("click", function() {
-    description_three.textContent="We started by choosing a data set";
+   clickCounterTwo++;
+   if(clickCounterTwo == 1){
+    description_three.textContent = "The data set chosen was that of airport traffic flight details in India. Here is part of it:";
+    img_3.src = "data.png";
+    img_3.style.width = "99%";
+    img_3.display="inline";
+    three.innerText = "next";
+   }
+   if(clickCounterTwo == 2){
+    description_three.textContent="The first graphical representation:";
+    img_3.src = "120-1.png";
+   }
+   if(clickCounterTwo == 3){
+    description_three.textContent="The second graphical representation:";
+    img_3.src = "120-2.png";
+    three.innerText = "done";
+   }
+   if(clickCounterTwo == 4){
+    description_three.textContent = "[click project 3]";
+    clickCounterTwo == 0;
+   }
 });
-let description_one = document.getElementById("description_one");
+let clickCounterThree = 0;
+let description_one = document.getElementById("description_one .text");
 let one = document.getElementById("one");
+let img_1 = document.getElementById("img_one");
 one.addEventListener("click", function() {
-    description_one.textContent="We started by making a box and pointer diagram";
+    clickCounterThree++;
+   if(clickCounterThree == 1){
+    description_one.textContent = "Our prompts into AI started with 'Explain Prim's algorithm' to 'How is the algorithm optimizing an already existing graph without creating a loop?' to asking it for more complex stuff like the pseudo code";
+    three.innerText = "next";
+   }
+   if(clickCounterThree == 2){
+    description_one.textContent="Dense graph returned by the code after running Prim's algorithm";
+    img_1.src = "graph.png";
+    img_1.style.width = "99%";
+    img_1.display="inline";
+   }
+   if(clickCounterThree == 3){
+    description_one.textContent="The second graphical representation:";
+    three.innerText = "done";
+   }
+   if(clickCounterTwo == 4){
+    description_three.textContent = "[click project 3]";
+    clickCounterTwo == 0;
+   }
 });
 
