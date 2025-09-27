@@ -1,6 +1,6 @@
 
  document.getElementById("header").innerHTML = '<nav class="navigation"><a href="resume.html" alt="resume">Resume</a><a href="portfolio.html" alt="portfolio">Portfolio</a><a href="index.html" alt="index">Main</a></nav>'; 
-document.getElementById("footer").innerHTML = '<a href="https://app.joinhandshake.com/profiles/qa3jpy" alt="handshake">Handshake</a>';
+ document.getElementById("footer").innerHTML = '<a href="https://app.joinhandshake.com/profiles/qa3jpy" alt="handshake">Handshake</a>';
 
 let clickCounter = 0;
 let description_two = document.querySelector("#description_two .text");
