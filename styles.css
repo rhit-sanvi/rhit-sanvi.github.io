@@ -10,7 +10,7 @@ a{
     margin-right: 5%;
 }
 a:visited{
-    color: red;
+    color: darkred;
 }
 a:hover{
     color: black;
@@ -62,6 +62,8 @@ section {
     color: black;
     font-size: 4em;
 }
-
+#footer{
+    font-size: 1em;
+}
 
 
